@@ -1,4 +1,4 @@
-FROM tomcat:9.0-jdk17-temporal
+FROM tomcat:9.0-jdk11
 
 # Remove default webapps
 RUN rm -rf /usr/local/tomcat/webapps/*
